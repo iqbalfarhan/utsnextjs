@@ -1,5 +1,7 @@
 # Ujian tengah semester framework NextJS
 
+## Instalasi dan konfigurasi
+
 1. clone aplikasi ini dengan menjalankan perintah berikut:
 
    ```sh
@@ -18,16 +20,16 @@
    git checkout -b uts/namapersertaujian
    ```
 
-4. lalu jalankan perintah berikut untuk menjalankan aplikasi
-
-   ```sh
-   pnpm dev
-   ```
-
-5. aplikasi ini sudah diinstall prisma orm sehinggga tidak perlu menginstall prisma secara manual. bila file .env tidak ada, silahkan buat file .env dan isi dengan data berikut. kemudian sesuaikan dengan konfigurasi database yang kalian gunakan
+4. aplikasi ini sudah diinstall prisma orm sehinggga tidak perlu menginstall prisma secara manual. bila file .env tidak ada, silahkan buat file .env dan isi dengan data berikut. kemudian sesuaikan dengan konfigurasi database yang kalian gunakan
 
    ```
    DATABASE_URL="mysql://root:@localhost:3306/utsnextjs"
+   ```
+
+5. lalu jalankan perintah berikut untuk menjalankan aplikasi
+
+   ```sh
+   pnpm dev
    ```
 
 6. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan
