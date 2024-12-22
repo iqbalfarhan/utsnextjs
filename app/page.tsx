@@ -13,11 +13,11 @@ export default function Home() {
   const dataPeserta: { label: string; value: string }[] = [
     {
       label: 'Nama',
-      value: 'iqbal farhan syuhada',
+      value: '[ganti dengan nama peserta]',
     },
     {
       label: 'NIM',
-      value: '132010040002',
+      value: '[ganti dengan nim peserta]',
     },
     {
       label: 'Kelas',
@@ -25,20 +25,20 @@ export default function Home() {
     },
     {
       label: 'Alamat email',
-      value: 'iqbalfarhan1996@gmail.com',
+      value: '[ganti dengan email peserta]',
     },
     {
       label: 'Link Github',
-      value: 'https://github.com/iqbalfarhan',
+      value: '[ganti dengan link github peserta]',
     },
   ];
   return (
     <div className='flex flex-col items-center justify-center min-h-screen py-2 space-y-6'>
       <div className='flex flex-col items-center'>
-        <h1 className='text-base font-bold opacity-50'>
+        <h1 className='text-base opacity-50'>
           Ujian Tengah Semester Framework Next JS
         </h1>
-        <h1 className='text-xl font-bold'>CRUD DATA MAKANAN</h1>
+        <h1 className='text-2xl font-bold'>CRUD DATA MAKANAN</h1>
       </div>
       <Table className='max-w-lg mx-auto border'>
         <TableBody>
