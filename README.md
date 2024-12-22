@@ -1,30 +1,30 @@
 # Ujian tengah semester framework NextJS
 
-clone aplikasi ini dengan menjalankan perintah berikut:
+1. clone aplikasi ini dengan menjalankan perintah berikut:
 
 ```sh
 git clone https://github.com/iqbalfarhan/utsnextjs.git
 ```
 
-kemudian buat sebuah branch baru dengan nama branch sesuai dengan nama kalian dengan menjalankan perintah berikut:
-
-```sh
-git checkout -b uts/namapersertaujian
-```
-
-lalu jalankan perintah berikut untuk menginstall dependencies
+2. lalu jalankan perintah berikut untuk menginstall dependencies
 
 ```sh
 pnpm install
 ```
 
-lalu jalankan perintah berikut untuk menjalankan aplikasi
+3. kemudian buat sebuah branch baru dengan nama branch sesuai dengan nama kalian dengan menjalankan perintah berikut:
+
+```sh
+git checkout -b uts/namapersertaujian
+```
+
+4. lalu jalankan perintah berikut untuk menjalankan aplikasi
 
 ```sh
 pnpm dev
 ```
 
-aplikasi ini sudah diinstall prisma orm sehinggga tidak perlu menginstall prisma secara manual. bila file .env tidak ada, silahkan buat file .env dan isi dengan data berikut:
+5. aplikasi ini sudah diinstall prisma orm sehinggga tidak perlu menginstall prisma secara manual. bila file .env tidak ada, silahkan buat file .env dan isi dengan data berikut:
 
 ```
 DATABASE_URL="mysql://root:@localhost:3306/utsnextjs"
