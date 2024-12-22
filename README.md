@@ -42,18 +42,18 @@ pnpm dev
 
 Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerjakan ujian ini.
 
-1. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan
-2. peserta diperbolehkan untuk menambah file baru jika diperlukan
-3. silahkan isi data peserta pada file page.ts (isi nama, nim, kelas, dan email)
-4. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
-5. Gunakan prisma ORM untuk melakukan query ke database
-6. model kelas berisi:
-   - id: string
-   - nama: string
-7. model mahasiswa berisi:
-   - id: string
-   - nama: string
-   - nim: string
-   - kelas: string
-8. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
-9. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
+1. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan. peserta diperbolehkan untuk menambah file baru jika diperlukan
+2. Sebagai awalan, silahkan isi data peserta pada file page.ts (isi nama, nim, kelas, dan email)
+3. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
+4. Gunakan prisma ORM untuk melakukan query ke database
+   1. model kelas berisi:
+      - id: string
+      - nama: string
+   2. model mahasiswa berisi:
+      - id: string
+      - nama: string
+      - nim: string
+      - kelas: string
+5. Pengumpulan
+   1. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
+   2. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
