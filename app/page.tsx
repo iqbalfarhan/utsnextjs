@@ -6,6 +6,7 @@ import {
   TableHead,
   TableRow,
 } from '@/components/ui/table';
+import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Home() {
@@ -51,7 +52,10 @@ export default function Home() {
         </TableBody>
       </Table>
       <Link href={'/makanan'}>
-        <Button>Lihat Hasil Ujian</Button>
+        <Button>
+          <span>Lihat Hasil Ujian</span>
+          <ArrowRight />
+        </Button>
       </Link>
     </div>
   );

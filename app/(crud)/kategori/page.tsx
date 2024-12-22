@@ -1,7 +1,9 @@
-import React from 'react';
-
 const KategoriPage = () => {
-  return <div>data kategori makanan</div>;
+  return (
+    <div>
+      <h1 className='font-bold text-xl'>Kategori makanan</h1>
+    </div>
+  );
 };
 
 export default KategoriPage;
