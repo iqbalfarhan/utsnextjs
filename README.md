@@ -1,5 +1,9 @@
 # Ujian tengah semester framework NextJS
 
+Aplikasi ini adalah aplikasi ujian tengah semester untuk mata kuliah framework nextjs. aplikasi ini dibuat dengan menggunakan NextJS, TailwindCSS, Prisma ORM, dan PostgreSQL. aplikasi ini dibuat dengan tujuan untuk memenuhi tugas ujian tengah semester mata kuliah framework nextjs.
+
+Pada ujian tengah semester ini, kalian diminta untuk membuat aplikasi berbasis web dengan menggunakan NextJS, TailwindCSS, Prisma ORM, dan PostgreSQL. membuat fitur CRUD untuk data kelas dan data mahasiswa.
+
 ## Instalasi dan konfigurasi
 
 1. clone aplikasi ini dengan menjalankan perintah berikut:
@@ -28,13 +32,15 @@
 
 ## Cara menjalankan aplikasi
 
-1. Jalankan perintah berikut untuk menjalankan aplikasi
+Jalankan perintah berikut untuk menjalankan aplikasi
 
-   ```sh
-   pnpm dev
-   ```
+```sh
+pnpm dev
+```
 
 ## Ketentuan mengerjakan ujian
+
+Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerjakan ujian ini.
 
 1. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan
 2. peserta diperbolehkan untuk menambah file baru jika diperlukan
