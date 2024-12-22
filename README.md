@@ -26,14 +26,18 @@
    DATABASE_URL="mysql://root:@localhost:3306/utsnextjs"
    ```
 
-5. lalu jalankan perintah berikut untuk menjalankan aplikasi
+### Cara menjalankan aplikasi
+
+1. lalu jalankan perintah berikut untuk menjalankan aplikasi
 
    ```sh
    pnpm dev
    ```
 
-6. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan
-7. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
-8. silahkan gunakan prisma untuk melakukan query ke database
-9. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
-10. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
+## Ketentuan mengerjakan ujian
+
+1. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan
+2. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
+3. silahkan gunakan prisma untuk melakukan query ke database
+4. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
+5. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
