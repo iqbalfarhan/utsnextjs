@@ -54,9 +54,15 @@ Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerj
       - nama: string
       - nim: string
       - kelas: string
-5. Pengumpulan
-   - bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
-   - sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat. gunakan perintah berikut untuk melihat branch aktif
-     ```sh
-     git branch
-     ```
+
+## Pengumpulan ujian
+
+- bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
+- sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat. gunakan perintah berikut untuk melihat branch aktif
+  ```sh
+  git branch
+  ```
+- jika branch aktif bukan branch yang sudah kalian buat, silahkan gunakan perintah berikut untuk berpindah ke branch yang sudah kalian buat dengan perintah berikut
+  ```sh
+  git checkout uts/namapersertaujian
+  ```
