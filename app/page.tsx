@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 import {
   Table,
   TableBody,
@@ -6,8 +5,6 @@ import {
   TableHead,
   TableRow,
 } from '@/components/ui/table';
-import { ArrowRight } from 'lucide-react';
-import Link from 'next/link';
 
 export default function Home() {
   const dataPeserta: { label: string; value: string }[] = [
@@ -27,18 +24,14 @@ export default function Home() {
       label: 'Alamat email',
       value: '[ganti dengan email peserta]',
     },
-    {
-      label: 'Link Github',
-      value: '[ganti dengan link github peserta]',
-    },
   ];
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen py-2 space-y-6'>
+    <div className='flex flex-col items-center justify-center py-2 space-y-6'>
       <div className='flex flex-col items-center'>
         <h1 className='text-base opacity-50'>
           Ujian Tengah Semester Framework Next JS
         </h1>
-        <h1 className='text-2xl font-bold'>CRUD DATA MAKANAN</h1>
+        <h1 className='text-2xl font-bold'>CRUD DATA MAHASISWA</h1>
       </div>
       <Table className='max-w-lg mx-auto border'>
         <TableBody>
@@ -51,12 +44,6 @@ export default function Home() {
           ))}
         </TableBody>
       </Table>
-      <Link href={'/mahasiswa'}>
-        <Button>
-          <span>Lihat Hasil Ujian</span>
-          <ArrowRight />
-        </Button>
-      </Link>
     </div>
   );
 }
