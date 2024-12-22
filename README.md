@@ -55,5 +55,8 @@ Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerj
       - nim: string
       - kelas: string
 5. Pengumpulan
-   1. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
-   2. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
+   - bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
+   - sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat. gunakan perintah berikut untuk melihat branch aktif
+     ```sh
+     git branch
+     ```
