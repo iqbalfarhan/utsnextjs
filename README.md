@@ -63,21 +63,21 @@ Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerj
 
 ## Contoh tampilan data
 
-### table data kelas
+1.  table data kelas
 
-| id  | nama kelas | action      |
-| --- | ---------- | ----------- |
-| 1   | ASE 02     | edit delete |
-| 2   | ASE 03     | edit delete |
-| 3   | ASE 04     | edit delete |
+    | id  | nama kelas | action      |
+    | --- | ---------- | ----------- |
+    | 1   | ASE 02     | edit delete |
+    | 2   | ASE 03     | edit delete |
+    | 3   | ASE 04     | edit delete |
 
-### table data mahasiswa
+2.  table data mahasiswa
 
-| id  | NIM        | nama mahasiswa       | nama kelas | action      |
-| --- | ---------- | -------------------- | ---------- | ----------- |
-| 1   | 1234567890 | iqbal farhan syuhada | ASE 02     | edit delete |
-| 2   | 1234567891 | muhammad alif        | ASE 02     | edit delete |
-| 3   | 1234567892 | fakhri nur ismayadi  | ASE 02     | edit delete |
+    | id  | NIM        | nama mahasiswa       | nama kelas | action      |
+    | --- | ---------- | -------------------- | ---------- | ----------- |
+    | 1   | 1234567890 | iqbal farhan syuhada | ASE 02     | edit delete |
+    | 2   | 1234567891 | muhammad alif        | ASE 02     | edit delete |
+    | 3   | 1234567892 | fakhri nur ismayadi  | ASE 02     | edit delete |
 
 ## Pengumpulan ujian
 
