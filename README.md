@@ -2,7 +2,7 @@
 
 Aplikasi ini adalah aplikasi ujian tengah semester untuk mata kuliah framework nextjs. aplikasi ini dibuat dengan menggunakan NextJS, TailwindCSS, Prisma ORM, dan PostgreSQL. aplikasi ini dibuat dengan tujuan untuk memenuhi tugas ujian tengah semester mata kuliah framework nextjs.
 
-Pada ujian tengah semester ini, kalian diminta untuk membuat aplikasi berbasis web dengan menggunakan NextJS, TailwindCSS, Prisma ORM, dan PostgreSQL. membuat fitur CRUD untuk data kelas dan data mahasiswa.
+Pada ujian tengah semester ini, kalian diminta untuk membuat aplikasi berbasis web dengan fitur CRUD data kelas dan data mahasiswa menggunakan NextJS, TailwindCSS, Prisma ORM, dan PostgreSQL.
 
 ## Instalasi dan konfigurasi
 
@@ -47,5 +47,13 @@ Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerj
 3. silahkan isi data peserta pada file page.ts (isi nama, nim, kelas, dan email)
 4. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
 5. Gunakan prisma ORM untuk melakukan query ke database
-6. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
-7. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
+6. model kelas berisi:
+   1. id: string
+   2. nama: string
+7. model mahasiswa berisi:
+   1. id: string
+   2. nama: string
+   3. nim: string
+   4. kelas: string
+8. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
+9. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
