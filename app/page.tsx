@@ -51,7 +51,7 @@ export default function Home() {
           ))}
         </TableBody>
       </Table>
-      <Link href={'/makanan'}>
+      <Link href={'/mahasiswa'}>
         <Button>
           <span>Lihat Hasil Ujian</span>
           <ArrowRight />

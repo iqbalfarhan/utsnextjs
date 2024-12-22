@@ -4,7 +4,7 @@ import {
   NavigationMenuItem,
   NavigationMenuList,
 } from '@/components/ui/navigation-menu';
-import { List, Soup, User } from 'lucide-react';
+import { Banknote, User, Users } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
@@ -22,18 +22,18 @@ const CrudLayout = ({ children }: { children: React.ReactNode }) => {
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href='/makanan' legacyBehavior passHref>
+            <Link href='/kelas' legacyBehavior passHref>
               <Button variant={'outline'}>
-                <Soup />
-                <span>Data makanan</span>
+                <Banknote />
+                <span>Data Kelas</span>
               </Button>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <Link href='/kategori' legacyBehavior passHref>
+            <Link href='/mahasiswa' legacyBehavior passHref>
               <Button variant={'outline'}>
-                <List />
-                <span>Kategori makanan</span>
+                <Users />
+                <span>Data Mahasiswa</span>
               </Button>
             </Link>
           </NavigationMenuItem>
