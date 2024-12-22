@@ -53,13 +53,13 @@ Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerj
 3. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
 4. Gunakan prisma ORM untuk melakukan query ke database
    1. model kelas berisi:
-      - id: string
-      - nama: string
+      - id
+      - nama
    2. model mahasiswa berisi:
-      - id: string
-      - nama: string
-      - nim: string
-      - kelas: string
+      - id
+      - nama
+      - nim
+      - kelas_id (merupakan relasi dari model kelas)
 
 ## Pengumpulan ujian
 
