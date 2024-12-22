@@ -41,7 +41,7 @@ pnpm dev
 lakukan push schema database dengan menjalankan perintah berikut
 
 ```sh
-pnpm db:push
+pnpx prisma db:push
 ```
 
 ## Ketentuan mengerjakan ujian
