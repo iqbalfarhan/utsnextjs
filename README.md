@@ -24,13 +24,11 @@
    pnpm dev
    ```
 
-5. aplikasi ini sudah diinstall prisma orm sehinggga tidak perlu menginstall prisma secara manual. bila file .env tidak ada, silahkan buat file .env dan isi dengan data berikut:
+5. aplikasi ini sudah diinstall prisma orm sehinggga tidak perlu menginstall prisma secara manual. bila file .env tidak ada, silahkan buat file .env dan isi dengan data berikut. kemudian sesuaikan dengan konfigurasi database yang kalian gunakan
 
    ```
    DATABASE_URL="mysql://root:@localhost:3306/utsnextjs"
    ```
-
-   kemudian sesuaikan dengan konfigurasi database yang kalian gunakan
 
 6. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan
 7. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
