@@ -52,15 +52,10 @@ Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerj
 2. Sebagai awalan, silahkan isi data peserta pada file page.ts (isi nama, nim, kelas, dan email)
 3. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
 4. Gunakan prisma ORM untuk melakukan query ke database
-   1. model kelas berisi:
-      - id
-      - nama
-   2. model mahasiswa berisi:
-      - id
-      - nama
-      - nim
-      - kelas_id (merupakan relasi dari model kelas)
+   - model kelas berisi: id, nama
+   - model mahasiswa berisi: id, nama, nim, kelas_id (merupakan relasi dari model kelas)
 5. peserta diperbolehkan untuk menggunakan menambahkan fitur tambahan seperti pencarian dan sorting data
+6. peserta diperbolehkan untuk berkreasi mengubah tampilan halaman web sesuai dengan keinginan
 
 ## Contoh tampilan data pada halaman web kelas dan mahasiswa
 
