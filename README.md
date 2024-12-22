@@ -48,14 +48,14 @@ pnpx prisma db:push
 
 Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerjakan ujian ini.
 
-1. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan. peserta diperbolehkan untuk menambah file baru jika diperlukan.
-2. Sebagai awalan, silahkan isi data peserta pada file page.ts (isi nama, nim, kelas, dan email)
-3. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
+1. File page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan. peserta diperbolehkan untuk menambah file baru jika diperlukan.
+2. Sebagai awalan, silahkan isi data peserta pada file `app/page.tsx` (isi nama, nim, kelas, dan email)
+3. Silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
 4. Gunakan prisma ORM untuk melakukan query ke database
    - model kelas berisi: id, nama
    - model mahasiswa berisi: id, nama, nim, kelas_id (merupakan relasi dari model kelas)
-5. peserta diperbolehkan untuk menggunakan menambahkan fitur tambahan seperti pencarian dan sorting data
-6. peserta diperbolehkan untuk berkreasi mengubah tampilan halaman web sesuai dengan keinginan
+5. Peserta diperbolehkan untuk menggunakan menambahkan fitur tambahan seperti pencarian dan sorting data
+6. Peserta diperbolehkan untuk berkreasi mengubah tampilan halaman web sesuai dengan keinginan
 
 ## Contoh tampilan data pada halaman web kelas dan mahasiswa
 
