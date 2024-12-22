@@ -48,12 +48,12 @@ Berikut ini adalah ketentuan yang harus dipenuhi oleh peserta ujian saat mengerj
 4. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
 5. Gunakan prisma ORM untuk melakukan query ke database
 6. model kelas berisi:
-   1. id: string
-   2. nama: string
+   - id: string
+   - nama: string
 7. model mahasiswa berisi:
-   1. id: string
-   2. nama: string
-   3. nim: string
-   4. kelas: string
+   - id: string
+   - nama: string
+   - nim: string
+   - kelas: string
 8. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
 9. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
