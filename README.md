@@ -37,8 +37,9 @@
 ## Ketentuan mengerjakan ujian
 
 1. file page.tsx sudah disediakan, silahkan gunakan file yang sudah disediakan untuk membuat aplikasi yang kalian inginkan
-2. silahkan isi data peserta pada file page.ts (isi nama, nim, kelas, dan email)
-3. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
-4. Gunakan prisma ORM untuk melakukan query ke database
-5. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
-6. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
+2. peserta diperbolehkan untuk menambah file baru jika diperlukan
+3. silahkan isi data peserta pada file page.ts (isi nama, nim, kelas, dan email)
+4. silahakan gunakan SSR atau CSR sesuai dengan kebutuhan kalian
+5. Gunakan prisma ORM untuk melakukan query ke database
+6. bila sudah selesai mengerjakan ujian, silahan commit dan push ke branch yang sudah kalian buat
+7. sebelum melakukan commit dan push, pastikan branch aktif adalah branch yang sudah kalian buat
