@@ -6,6 +6,12 @@ clone aplikasi ini dengan menjalankan perintah berikut:
 git clone https://github.com/iqbalfarhan/utsnextjs.git
 ```
 
+kemudian buat sebuah branch baru dengan nama branch sesuai dengan nama kalian dengan menjalankan perintah berikut:
+
+```sh
+git checkout -b uts/namapersertaujian
+```
+
 lalu jalankan perintah berikut untuk menginstall dependencies
 
 ```sh
