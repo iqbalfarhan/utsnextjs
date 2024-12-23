@@ -13,13 +13,3 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Mahasiswa {
-  id        Int      @id @default(autoincrement())
-  nim       String
-  nama      String
-  jurusan   String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @default(now())
-
-  @@map("mahasiswas")
-}
