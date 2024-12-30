@@ -10,11 +10,11 @@ export default function Home() {
   const dataPeserta: { label: string; value: string }[] = [
     {
       label: 'Nama',
-      value: '[ganti dengan nama peserta]',
+      value: 'Iqbal farhan syuhada',
     },
     {
       label: 'NIM',
-      value: '[ganti dengan nim peserta]',
+      value: '132010040002',
     },
     {
       label: 'Kelas',
@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       label: 'Alamat email',
-      value: '[ganti dengan email peserta]',
+      value: 'iqbalfarhan1996@gmail.com',
     },
   ];
   return (
