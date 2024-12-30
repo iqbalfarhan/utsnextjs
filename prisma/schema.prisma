@@ -13,3 +13,28 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+model kelas {
+  id           Int       @id @default(autoincrement())
+  nama         String    @unique
+ mahasiswas mahasiswa []
+
+ @@map ("kelases")
+}
+
+model mahasiswa {
+  id          Int      @id @default(autoincrement())
+  nama        String
+  nim         String   @unique
+  jurusan    String
+  kelas_id Int 
+  kelas kelas @relation(fields: [kelas_id], references: [id])
+  createdAt DateTime @default(now())
+  updatedAt DateTime @default(now())
+
+  @@index([kelas_id], map: "mahasiswas_kelas_id_fkey")
+  @@map("mahasiswas")
+}
+
+
+
+
